@@ -1,0 +1,837 @@
+aliciasminions1
+#Menu1 > ul > li:nth-child(2) > a
+#Menu1\3a submenu\3a 4 > li:nth-child(1) > a
+#btnStartClose
+on i360 - Basic Search page ...
+aliciasminions1
+#Menu1 > ul > li:nth-child(2) > a
+#Menu1\3a submenu\3a 4 > li:nth-child(2) > a
+on i360 - Combined Searches page ...
+Combined Searches
+Criteria
+Overview
+Find
+aliciasminions1
+#Menu1 > ul > li:nth-child(2) > a
+Individual i360 Search
+on Individual i360 Search page ...
+Individual i360 Search
+Drag a column header here to group by that column
+State
+First Name
+Last Name
+Birth Year
+aliciasminions1
+#Menu1 > ul > li:nth-child(2) > a
+MyData
+on i360 - MyData page ...
+MyData
+Tag Checked
+aliciasminions1
+#Menu1 > ul > li:nth-child(2) > a
+Individual MyData Search
+on i360 - Individual MyData Search page ...
+Individual MyData Search
+State
+Birth Year
+City
+Zip
+Party
+aliciasminions1
+#Menu1 > ul > li:nth-child(2) > a
+Add Contact
+on i360 - Contact Detail page ...
+Add Contact
+Required Information
+First Name
+Last Name
+State
+Zipcode
+Enter Full Record
+Facebook Page
+Occupation
+aliciasminions1
+#Menu1 > ul > li:nth-child(2) > a
+Last Contact
+on i360 - Contact Detail page ...
+Contact Details
+Contact Tags
+Relationships
+Contact Notes
+aliciasminions1
+#Menu1 > ul > li:nth-child(2) > a
+#Menu1\3a submenu\3a 14 > li:nth-child(1) > a
+on 360 - MyData Tags page ...
+MyData Tags
+aliciasminions1
+#Menu1 > ul > li:nth-child(2) > a
+#Menu1\3a submenu\3a 14 > li:nth-child(2) > a
+on i360 - MyData Categories page ...
+MyData Categories
+aliciasminions1
+#Menu1 > ul > li:nth-child(2) > a
+Import
+on i360 - Imports page ...
+Imports Home
+Click on a row to view more information in the review section below.
+Status Legend:
+Import Name
+New Import
+By
+Previous
+aliciasminions1
+#Menu1 > ul > li:nth-child(2) > a
+Tag-Phone Import
+on i360 - Phone Tag Import page ...
+Phone Tag Import
+Telephone Numbers
+Notes:
+Category:
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+#Menu1\3a submenu\3a 24 > li:nth-child(1) > a
+on i360 - Volunteers page ...
+Volunteers
+Select Organization:
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Add Volunteer
+on i360 - Volunteer Details page ...
+Add Volunteer
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Last Volunteer
+on i360 - Volunteer Details page ...
+Volunteer Details
+Permissions
+Quick Tags
+User Name
+Password
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Precinct Assignments
+on i360 - Precinct Assignments page ...
+Precinct
+State
+Election Day
+Election Type
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Import Volunteers
+on i360 - Imports page ...
+Create an Import
+* Upload a File
+* Import Name
+Global Tags
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Volunteer Management
+on i360 - Volunteer Management page ...
+Volunteer Management
+Coordinator:
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Survey Responses Report
+on i360 - Volunteer Survey Responses page ...
+Volunteer Survey Responses
+Select Organization:
+Volunteer
+Tag
+Survey
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Touchpoint Report
+on i360 - Touchpoint Report page ...
+Touchpoint Report
+Client Org Touchpoints
+End Date
+Start Date
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Transfer Volunteers
+on i360 - Transfer Volunteers page ...
+Transfer Volunteers
+From Coordinator:
+To Coordinator:
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+#Menu1\3a submenu\3a 34 > li:nth-child(1) > a
+on i360 - Volunteer Tags page ...
+Volunteer Tags
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Volunteer Categories
+on i360 - Volunteer Categories page ...
+Volunteer Categories
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Network Calendar
+on i360 -  page ...
+Legend
+Filter events by organization
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Shared Locations
+on i360 -  page ...
+aliciasminions1
+#Menu1 > ul > li:nth-child(3) > a
+Shared Talent
+on i360 -  page ...
+aliciasminions1
+#Menu1 > ul > li:nth-child(4) > a
+Survey Home
+on i360 - Select a Survey page ...
+Select a Survey
+Client Org
+aliciasminions1
+#Menu1 > ul > li:nth-child(4) > a
+List Survey Volunteers
+on i360 - List Survey Volunteers page ...
+List Survey Volunteers
+Survey:
+aliciasminions1
+#Menu1 > ul > li:nth-child(4) > a
+Predictive Dialer Link
+on i360 - Predictive Dialer Link page ...
+Predictive Dialer Link
+Click to go to the Predictive Dialer login form:
+aliciasminions1
+#Menu1 > ul > li:nth-child(4) > a
+Canvassing Report
+on i360 - Canvassing Report page ...
+Canvassing Report
+Select a Survey
+Client Organization:
+aliciasminions1
+#Menu1 > ul > li:nth-child(4) > a
+PD Admin
+on i360 - PD Admin page ...
+aliciasminions1
+#Menu1 > ul > li:nth-child(4) > a
+Call Admin
+on i360 - Call Admin page ...
+Call Admin
+Status Filter
+aliciasminions1
+#Menu1 > ul > li:nth-child(5) > a
+Snapshots
+on i360 - Snapshots page ...
+Snapshots
+Select Report:
+aliciasminions1
+#Menu1 > ul > li:nth-child(5) > a
+Dashboards
+on i360 - Dashboards page ...
+Dashboards
+Select Year
+Select Dashboard View:
+aliciasminions1
+#Menu1 > ul > li:nth-child(5) > a
+#Menu1\3a submenu\3a 68 > li:nth-child(1) > a
+on i360 - Upload Documents page ...
+Upload Documents
+Poll Date:
+Description:
+Tags:
+aliciasminions1
+#Menu1 > ul > li:nth-child(5) > a
+#Menu1\3a submenu\3a 68 > li:nth-child(2) > a
+on i360 - Analytics: View Documents page ...
+Analytics: View Documents
+aliciasminions1
+#Menu1 > ul > li:nth-child(5) > a
+#Menu1\3a submenu\3a 72 > li:nth-child(1) > a
+on i360 - Test and Learn: Upload Documents page ...
+Test and Learn: Upload Documents
+Poll Date:
+Description:
+Tags:
+aliciasminions1
+#Menu1 > ul > li:nth-child(5) > a
+#Menu1\3a submenu\3a 72 > li:nth-child(2) > a
+on i360 - Test and Learn: View Documents page ...
+Test and Learn: View Documents
+aliciasminions1
+#Menu1 > ul > li:nth-child(5) > a
+#Menu1\3a submenu\3a 77 > li:nth-child(1) > a
+on i360 - View Polls page ...
+View Polls
+State
+Race Type
+Released After
+Released Before
+aliciasminions1
+#Menu1 > ul > li:nth-child(5) > a
+#Menu1\3a submenu\3a 77 > li:nth-child(2) > a
+on i360 - Poll Aggregates Report page ...
+Poll Aggregates Report
+State
+Race Type
+Group Types
+Source
+aliciasminions1
+#Menu1 > ul > li:nth-child(5) > a
+#Menu1\3a submenu\3a 77 > li:nth-child(3) > a
+on i360 - Poll Templates page ...
+Poll Templates
+State
+Race Type
+Released After
+Released Before
+aliciasminions1
+#Menu1 > ul > li:nth-child(5) > a
+#Menu1\3a submenu\3a 77 > li:nth-child(4) > a
+on i360 - Add New Poll page ...
+Add New Poll
+Select Poll Template:
+Race Type:
+Visibility:
+State:
+aliciasminions1
+#Menu1 > ul > li:nth-child(5) > a
+#Menu1\3a submenu\3a 77 > li:nth-child(5) > a
+on i360 - Edit Polls page ...
+Edit Polls
+State
+Race Type
+Released After
+Released Before
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+User Admin
+on i360 - User Admin page ...
+User Admin
+Select Organization:
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Users Report
+on i360 -  page ...
+Client Organization
+Drag a column header here to group by that column
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Volunteer Tag Groups
+on i360 - Volunteer Tag Groups page ...
+Select Group:
+Volunteer Tag Groups
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Contact Tag Groups
+on i360 - Contact Tag Groups page ...
+Contact Tag Groups
+Select Group:
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Position Roles
+on i360 - Position Roles page ...
+Position:
+Position Roles
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Tableau Users
+on i360 - Tableau Users page ...
+Tableau Users
+Unassigned Users
+Assigned Users
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Organization Touchpoints
+on i360 - Organization Touchpoints page ...
+Organization
+Organization Touchpoints
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Organization Portal Content
+on i360 - Organizational Portal Content page ...
+Organizational Portal Content
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Email Alert Admin
+on i360 - Email Alert Admin page ...
+Email Alert Admin
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Email Alert CC and BCC
+on i360 - Email Alert CC and BCC page ...
+Email Alert CC and BCC
+Client Organization
+Alert Type
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Remove AB\EV Voters From Surveys
+on i360 - Remove AB\EV Voters From Surveys page ...
+Remove AB\EV Voters From Surveys
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Single Record Import Exceptions
+on i360 - Single Row Import Exceptions page ...
+Single Row Import Exceptions
+Client Organization:
+Start Date
+End Date
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+Child Organizations
+on i360 - Child Organizations page ...
+Child Organizations
+aliciasminions1
+#Menu2 > ul > li:nth-child(2) > a
+User Geography
+on i360 - User Geography Administration page ...
+User Geography Administration
+Select Client:
+Select User:
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Dynamic Reporting
+on i360 - Dynamic Reporting page ...
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+API Audit
+on i360 - API Audit Report page ...
+API Audit Report
+API Org:
+API User:
+URL:
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Folksonomy Tag Linking
+on i360 - Folksonomy Tag Linking page ...
+Folksonomy Tag Linking
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Merge MyData Tags
+on i360 - Merge MyData Tags page ...
+Merge MyData Tags
+Tag to Keep
+Tag to Merge
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Merge Volunteer Tags
+on i360 - Merge Volunteer Tags page ...
+Merge Volunteer Tags
+Tag to keep:
+Tag to merge:
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Client Organizations
+on i360 - Client Organizations page ...
+Client Organizations
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Client Geography
+on i360 - Client Geography Administration page ...
+Client Geography Administration
+Select Client Organization:
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Organization Lookup Data
+on i360 - Organization Lookup Data page ...
+Organization Lookup Data
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Organization Page Views
+on i360 - Organization Page Views page ...
+Organization Page Views
+Client Organization
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Empty Data Report
+on i360 - Empty Data Report page ...
+Empty Data Report
+Database
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Logo Upload
+on i360 - Logo Upload page ...
+Logo Upload
+Select Image file to Upload:
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Election Admin
+on i360 - Election Admin page ...
+Election Admin
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Imports Admin
+on i360 - Import Admin page ...
+Imports Admin
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Survey Publishing Admin
+on i360 - Survey Publishing Admin page ...
+Survey Publishing Admin
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Observation Clusters
+on i360 - Observation Cluster Administration page ...
+Observation Cluster Administration
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+External Data Sync
+on i360 - External Data Synchronization page ...
+External Data Synchronization
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+PD Config
+on i360 - PD Config Admin page ...
+PD Config Admin
+Environment:
+Server:
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Billing Report
+on i360 - Billing Report page ...
+Billing Report
+Start Date
+End Date
+Client Org
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Billing List and Export Detail
+on i360 - Billing List and Export Detail Report page ...
+Billing List and Export Detail Report
+Start Date
+End Date
+Client Org
+State
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Billing Call Detail
+on i360 - Billing Call Detail Report page ...
+Billing Call Detail Report
+Start Date
+End Date
+Client Org
+Area Code
+Cost/Min
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Billing Call Summary
+on i360 - Billing Call Summary Report page ...
+Billing Call Summary Report
+Start Date
+End Date
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+User Groups
+on i360 - User Groups page ...
+User Groups
+Select a Group
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Query Constraints
+on i360 - Query Constraints page ...
+Query Constraints
+User
+Query Type
+State
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Look Up Password
+on i360 - Look Up Password page ...
+Look Up Password
+Select User to Impersonate
+Select Organization
+New Organization Wide Password
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Delete Contacts
+on i360 - Delete Contacts page ...
+Delete Contacts
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Users In Roles
+on i360 - Users In Roles page ...
+Users In Roles
+Role Name
+Client Name
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+User Role Analysis
+on i360 - User Role Analysis page ...
+User Role Analysis
+Status
+Client Name
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Users By Client Org
+on i360 - Users By Client page ...
+Users By Client
+Client:
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Help Requests
+on i360 - Help Requests page ...
+Help Requests
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Ordered Search Report By User
+on i360 - Ordered Search Report by User page ...
+Ordered Search Report by User
+Status
+Start Date
+End Date
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Scheduled Email Reports
+on i360 - Scheduled Email Reports page ...
+Scheduled Email Reports
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Searches
+on Login page ...
+Searches
+Start Date
+End Date
+Organization
+User
+Combined
+Active
+Status
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Parameter Report
+on i360 - Ordered Search Parameters Report page ...
+Ordered Search Parameters Report
+Organization
+Status
+State Date
+End Date
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Tableau Admin
+on i360 - Tableau Administration page ...
+Tableau Administration
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Tableau Organizations
+on i360 - Tableau Organizations page ...
+Tableau Organizations
+aliciasminions1
+#Menu2 > ul > li:nth-child(3) > a
+Pyramid Admin
+on i360 - Pyramid Administration page ...
+Pyramid Administration
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Error + Debugging
+on i360 - Error + Debugging page ...
+Error + Debugging
+Start Date
+End Date
+ID
+Server
+Application
+Level
+on i360 - Reference Data Admin page ...
+Reference Data Admin
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Portal Content
+on i360 - Portal Content Administration page ...
+Portal Content Administration
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Election Officials
+on i360 - Election Officials page ...
+Election Officials
+State:
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Organization Refresh Rules
+on i360 - Client Organization Refresh Rules page ...
+Client Organization Refresh Rules
+Organization
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Bulk Load Users
+on i360 - Ad-Hoc Bulk Users page ...
+Ad-Hoc Bulk Users
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Email Alert Admin
+on i360 - Email Alert Admin page ...
+Email Alert Admin
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Canvass Returns By Minute
+on i360 - Canvass Returns Per Minute page ...
+Canvass Returns Per Minute
+Start
+End
+GMT Offset
+MD Database
+Survey ID
+Type
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Canvass Returns By Second
+on i360 - Canvass Returns Per Second page ...
+Canvass Returns Per Second
+Start
+End
+GMT Offset
+MD Database
+Survey ID
+Type
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Help Guides Admin
+on i360 - Help Guides Admin page ...
+Help Guides Admin
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+#Menu2\3a submenu\3a 185 > li:nth-child(1) > a
+on i360 - Usage Statistics Admin page ...
+Usage Statistics Admin
+Start Date
+End Date
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+#Menu2\3a submenu\3a 185 > li:nth-child(2) > a
+on i360 - Usage Statistics Report page ...
+Usage Statistics Report
+Start Date
+End Date
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+#Menu2\3a submenu\3a 185 > li:nth-child(3) > a
+on i360 - Usage page ...
+Usage
+Graph Type
+Graph Style
+Graph Pallete
+Width
+Height
+Start Date
+End Date
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Metrics
+on i360 - Metrics page ...
+Metrics
+Start
+End
+Type
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+System Configuration
+on i360 - System Configuration page ...
+System Configuration
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Mail Gun Reports
+on i360 - Mail Gun Reports page ...
+Mail Gun Reports
+Gun Email Report
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Caching
+on i360 - Caching page ...
+Caching
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Analytics Poll
+on i360 - Analytics Poll Admin page ...
+Analytics Poll Admin
+Poll Type:
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Analytics Poll Permissions
+on i360 - Analytics Poll Permissions page ...
+Analytics Poll Permissions
+Select Poll:
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Search Page Sections
+on i360 - Search Section Administration page ...
+Search Section Administration
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Search Page Detail
+on i360 - Search Metadata page ...
+Search Metadata
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Search Columns
+on i360 - Search Column Administration page ...
+Search Column Administration
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Search Column Groups
+on i360 - Search Col Group Admin page ...
+Search Col Group Admin
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Style Guide
+on i360 - Style Guide page ...
+Accordians
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+jqxGrid Demo
+on i360 - jqxGrid Demo page ...
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Metric 1
+on i360 - Metric 1 page ...
+Metric 1
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Metric 2
+on i360 - Metric 2 page ...
+Metric 2
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Test 1
+on i360 - Test 1 page ...
+Test 1
+aliciasminions1
+#Menu2 > ul > li:nth-child(4) > a
+Civic Information
+on i360 - Civic Information page ...
+Civic Information
+aliciasminions1
+#Menu2 > ul > li:nth-child(5) > a
+#Menu2\3a submenu\3a 231 > li:nth-child(1) > a
+on i360 - About page ...
+About
+aliciasminions1
+#Menu2 > ul > li:nth-child(5) > a
+Contact i360
+on i360 - Contact i360 page ...
+Contact i360
+Your Account Rep
+Main Phone
+Main Email
+aliciasminions1
+#Menu2 > ul > li:nth-child(5) > a
+Help Guides
+on i360 - page ...
+Help Guides
+aliciasminions1
+#Menu2 > ul > li:nth-child(5) > a
+Release Notes
+on i360 - i360 Portal Release Notes page ...
+Release Notes
+aliciasminions1
+#Menu2 > ul > li:nth-child(5) > a
+Change Password
+on i360 - Change Password page ...
+Change Password
+Current password
+New password
+Confirm new password
+Password
+Security question
+Answer
+aliciasminions1
+#Menu2 > ul > li:nth-child(5) > a
+Reset Password
+on i360 - Reset Password page ...
+Reset Password
+User Name:
+#Menu2 > ul > li:nth-child(5) > a
+Switch Organizations
+on Switch Organization page ...
+Organization

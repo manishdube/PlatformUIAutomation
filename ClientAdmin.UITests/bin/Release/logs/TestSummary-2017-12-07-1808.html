@@ -1,0 +1,277 @@
+<head>
+    <meta charset="utf-8">
+    <title>canopy test results</title>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+    <style>
+        .masthead ul, .masthead li
+        {
+            margin-bottom: 0px;
+        }
+        
+        hr
+        {
+            margin: 0px 0px 20px 0px;
+        }
+        .table.results
+        {
+            margin-bottom: 0px;
+        }
+        
+        .table.results td
+        {
+            border-left: 0px solid #dddddd;
+        }
+
+        .black {
+            margin-left: 5px;
+            color: black;
+        }
+
+        .well.mini {
+            min-height: 0px;
+            margin-bottom: 0px;
+            padding: 2px;
+            position: relative;
+            top: -3px;
+        }
+
+        .well.mini.clear {
+            background-color: inherit;
+            border: none;
+            -webkit-box-shadow: inherit;
+            -moz-box-shadow: inherit;
+            box-shadow: inherit;
+            top: 0px;
+        }
+
+        .test, .context {
+            padding: 2px 0 6px 0;
+        }
+		
+		.result td {
+			padding-left: 15px;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="masthead">        
+            <ul class="nav nav-pills">
+                <li><a>
+                    <label class="checkbox">
+                        <input id="passedInput" checked="checked" value="" type="checkbox">
+                        <span id="passed">2</span>&nbsp;Passed
+                    </label>
+                </a></li>
+                <li><a>
+                    <label class="checkbox">
+                        <input id="failedInput" checked="checked" value="" type="checkbox">
+                        <span id="failed">0</span>&nbsp;Failed
+                    </label>
+                </a></li>
+                <li><a>
+                    <label class="checkbox">
+                        <input id="todoInput" checked="checked" value="" type="checkbox">
+                        <span id="todo">0</span>&nbsp;Todo
+                    </label>
+                </a></li>
+				<li><a>
+                    <label class="checkbox">
+                        <input id="skippedInput" checked="checked" value="" type="checkbox">
+                        <span id="skipped">0</span>&nbsp;Skipped
+                    </label>
+                </a></li>
+                <li class="pull-right" id="start"><a>
+                    <label>Start:<span class="black">Thursday, December 07, 2017 6:08:50 PM</span>
+                    </label>
+                </a></li>
+                <li class="pull-right" id="total"><a>
+                    <label>Total:<span class="black">23m 17s</span>
+                    </label>
+                </a></li>
+                <li class="pull-right hidden" id="environment"><a>
+                    <label>Environment:<span class="black"></span>
+                    </label>
+                </a></li>
+            </ul>
+        </div>
+        <hr>
+        <table class="table table-bordered table-condensed" id="contexts">
+            <tbody>
+            <tr data-context="ClientOrganizationsPageFilters_18340" class="success"><td><div class="context"><span class="mini well clear">Context: ClientOrganizationsPageFilters_18340</span><span class="pull-right mini well context-time">23m 17s</span></div></td></tr><tr class="result" data-owning-context="ClientOrganizationsPageFilters_18340" style="display: none;"><td><table class="table results"><tbody><tr class="success"><td><div class="test" data-name="Client Organizations Page"><span class="mini well clear">Client Organizations Page</span><span class="pull-right mini well test-time">0m 14s</span></div><pre><ol class="message"><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>on i360 - Client Organizations page ...</li><li>Client Organizations</li></ol></pre></td></tr><tr class="success"><td><div class="test" data-name="Client Organizations Page Filter tests"><span class="mini well clear">Client Organizations Page Filter tests</span><span class="pull-right mini well test-time">22m 40s</span></div><pre><ol class="message"><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>  -ve search tests for Id search box passed &lt;-------------------------</li><li>  +ve search tests for Id search box passed &lt;-------------------------</li><li>combo search tests for Id search box passed &lt;-------------------------</li><li>     sorting tests for Id search box passed &lt;-------------------------</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol2_I</li><li>Organization</li><li>Organization</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol2_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol2_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol2_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol2_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol2_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol2_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol2_I</li><li>  -ve search tests for Organization search box passed &lt;-------------------------</li><li>  +ve search tests for Organization search box passed &lt;-------------------------</li><li>combo search tests for Organization search box passed &lt;-------------------------</li><li>     sorting tests for Organization search box passed &lt;-------------------------</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol4_I</li><li>Header Image</li><li>Header Image</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol4_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol4_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol4_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol4_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol4_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol4_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol4_I</li><li>  -ve search tests for Header Image search box passed &lt;-------------------------</li><li>  +ve search tests for Header Image search box passed &lt;-------------------------</li><li>combo search tests for Header Image search box passed &lt;-------------------------</li><li>     sorting tests for Header Image search box passed &lt;-------------------------</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol7_I</li><li>Parent</li><li>Parent</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>dd item ...</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol7_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol7_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol7_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol7_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol7_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol7_I</li><li>  -ve search tests for Parent search box passed &lt;-------------------------</li><li>  +ve search tests for Parent search box passed &lt;-------------------------</li><li>combo search tests for Parent search box passed &lt;-------------------------</li><li>     sorting tests for Parent search box passed &lt;-------------------------</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol8_I</li><li>Client DB</li><li>Client DB</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol8_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol8_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol8_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol8_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol8_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol8_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol8_I</li><li>  -ve search tests for Client DB search box passed &lt;-------------------------</li><li>  +ve search tests for Client DB search box passed &lt;-------------------------</li><li>combo search tests for Client DB search box passed &lt;-------------------------</li><li>     sorting tests for Client DB search box passed &lt;-------------------------</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol9_I</li><li>Primary Acct Rep</li><li>Primary Acct Rep</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>dd item ...</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol9_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol9_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol9_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol9_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol9_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>failures seen</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>on i360 - Client Organizations page ...</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol10_I</li><li>DB Only</li><li>DB Only</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>dd item ...</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol10_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol10_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol10_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol10_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol10_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol10_I</li><li>  -ve search tests for DB Only search box passed &lt;-------------------------</li><li>  +ve search tests for DB Only search box passed &lt;-------------------------</li><li>combo search tests for DB Only search box passed &lt;-------------------------</li><li>     sorting tests for DB Only search box passed &lt;-------------------------</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol11_I</li><li>Active</li><li>Active</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>dd item ...</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol11_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol11_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol11_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol11_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol11_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol11_I</li><li>  -ve search tests for Active search box passed &lt;-------------------------</li><li>  +ve search tests for Active search box passed &lt;-------------------------</li><li>combo search tests for Active search box passed &lt;-------------------------</li><li>     sorting tests for Active search box passed &lt;-------------------------</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol12_I</li><li>Server</li><li>Server</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>dd item ...</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol12_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol12_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol12_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol12_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol12_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol12_I</li><li>  -ve search tests for Server search box passed &lt;-------------------------</li><li>  +ve search tests for Server search box passed &lt;-------------------------</li><li>combo search tests for Server search box passed &lt;-------------------------</li><li>     sorting tests for Server search box passed &lt;-------------------------</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol13_I</li><li>Max Rows</li><li>Max Rows</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>dd item ...</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol13_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol13_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol13_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol13_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol13_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol13_I</li><li>  -ve search tests for Max Rows search box passed &lt;-------------------------</li><li>  +ve search tests for Max Rows search box passed &lt;-------------------------</li><li>combo search tests for Max Rows search box passed &lt;-------------------------</li><li>     sorting tests for Max Rows search box passed &lt;-------------------------</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol6_I</li><li>Welcome Text</li><li>Welcome Text</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol6_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol6_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol6_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol6_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol6_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol6_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>failures seen</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>on i360 - Client Organizations page ...</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol5_I</li><li>Main Image</li><li>Main Image</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol5_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol5_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol5_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol5_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol5_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol5_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>failures seen</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>on i360 - Client Organizations page ...</li><li>Client Organizations</li><li>Id</li><li>Id</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol3_I</li><li>Welcome Image</li><li>Welcome Image</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(3)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(4)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(5)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(6)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(7)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(8)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(9)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(10)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(11)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(12)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(13)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(14)</li><li>#ctl00_MainContent_ASPxGridView1_DXDataRow0 &gt; td:nth-child(15)</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol3_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol3_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol3_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol3_I</li><li>#ctl00_MainContent_ASPxGridView1</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol3_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol3_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol1_I</li><li>failures seen</li><li>#Menu2 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Client Organizations</li><li>on i360 - Client Organizations page ...</li><li>Client Organizations</li></ol></pre></td></tr></tbody></table></td></tr></tbody>
+        </table>
+    </div>
+    <script type="text/javascript">
+		var beginContextResults = function (context) {
+				var ctx = $("#contexts").find('tr[data-context="' + context + '"]');
+				ctx.after('<tr class="result" data-owning-context="' + context + '"><td><table class="table results"><tbody></tbody></table></td></tr>');
+				ctx.click(function () {
+					if ($(this).next().is(":visible")) {
+						$(this).next().hide();
+					} else {
+						$(this).next().show();
+					}				
+				});
+			};
+
+		var addContext = function (context) {
+		    $("#contexts").last('tr').append('<tr data-context="' + context + '"><td><div class="context"><span class="mini well clear">Context: ' + context + '</span><span class="pull-right mini well hidden context-time">0m 0s</span></div></td></tr>');
+			beginContextResults(context);
+		};
+
+		var recalculateTotals = function () {
+			$("#passed").text($(".results .success").length);
+			$("#failed").text($(".results .error").length);
+			$("#todo").text($(".results .warning").length);
+			$("#skipped").text($(".results .info").length);
+		};
+		
+		var getContext = function (context) { return $('#contexts tr[data-context="' + context + '"]'); };
+		
+		var getTest = function (ctx, testName) { return ctx.next('tr').find('table').find('[data-name="' + testName + '"]'); };
+		
+		var getTestRow = function (ctx, testName) { return getTest(ctx, testName).closest("tr"); };
+		
+        var addToContext = function (context, testName) {
+			var ctx = getContext(context);
+			ctx.next('tr').find('table').append('<tr><td><div class="test" data-name="' + testName + '"><span class="mini well clear">' + testName + '</span><span class="pull-right mini well hidden test-time"></span></div></td></tr>');	
+		};
+				
+		var updateTestInContext = function (context, testName, passFailSkip, image) {
+			var ctx = getContext(context);
+			var testRow = getTestRow(ctx, testName);
+			
+			if (passFailSkip === "Pass") {
+				testRow.addClass('success');
+				if (ctx.hasClass("error") === false) {
+					ctx.removeClass("warning").removeClass("info").addClass("success");
+				}
+			}
+			if (passFailSkip === "Fail") {
+				testRow.addClass('error');
+				ctx.removeClass("success").removeClass("warning").removeClass("info").addClass("error");
+			}
+			if (passFailSkip === "Todo") {
+				testRow.addClass('warning');
+				if (ctx.hasClass("error") === false && ctx.hasClass("info") === false && ctx.hasClass("success") === false){
+					ctx.addClass("warning");
+				}
+			}
+			if (passFailSkip === "Skip") {
+				testRow.addClass('info');
+				if (ctx.hasClass("error") === false && ctx.hasClass("warning") === false && ctx.hasClass("success") === false){
+					ctx.addClass("info");
+				}
+			}
+
+			if(image !== "") {
+				testRow.find('td').last().append('<div><img alt="" src="data:image/jpeg;base64,' + image + '" /></div>')
+			}
+			
+			recalculateTotals();
+		};
+
+		var addUrlToTest = function (context, testName, url) {
+			var ctx = getContext(context);
+			getTest(ctx, testName).after('<div class="url"><pre>' + url + '</pre></div>');
+		};
+		
+		var addStackToTest = function (context, testName, stack) {
+			var ctx = getContext(context);
+			getTest(ctx, testName).after('<div class="stack"><pre>' + stack + '</pre></div>');
+		};
+		
+		var addTimeToTest = function (context, testName, time) {
+		    var ctx = getContext(context);
+		    getTest(ctx, testName).find('.test-time').removeClass('hidden').text(time);
+		};
+
+		var addTimeToContext = function (context, time) {
+		    var ctx = getContext(context);
+		    ctx.find('.context-time').removeClass('hidden').text(time);
+		};
+
+		var setTotalTime = function (time) {
+		    $("#total .black").text(time);
+		};
+
+		var setStartTime = function (time) {
+		    $("#start .black").text(time);
+		};
+
+		var setEnvironment = function (environment) {
+		    $("#environment").removeClass('hidden').find(".black").text(environment);
+		};
+
+		var addMessageToTest = function (context, message) {
+			var ctx = getContext(context);
+			if(ctx.next('tr').find('table').last('tr').find('.test').last().siblings('pre').length === 0) {
+				ctx.next('tr').find('table').last('tr').find('.test').last().after('<pre><ol class="message"><li>' + message + '</li></ol></pre>');
+			} else {
+				ctx.next('tr').find('table').last('tr').find('.test').last().siblings('pre').find('ol').append('<li>' + message + '</li>');
+			}
+		};
+		
+		var addMessageToTestByName = function (context, testName, message) {
+			var ctx = getContext(context);
+			var test = getTest(ctx, testName);
+			if(test.siblings('pre').length === 0) {
+				test.after('<pre><ol class="message"><li>' + message + '</li></ol></pre>');
+			} else {
+				test.siblings('pre').find('ol').append('<li>' + message + '</li>');
+			}
+		};
+		
+		var collapseContextsExcept = function (context) {
+			var ctxs = $('#contexts tr.result[data-owning-context !="' + context + '"]');
+			ctxs.each(function () {
+				$(this).hide();
+			});
+		};
+		
+		$(document).ready(function() {
+			var showHide = function(next) {
+				if (next.is(":visible")) {
+					next.hide();
+				} else {
+					next.show();
+				}
+			};
+
+			//wire up to existing contexts on the page
+            var ctx = $('#contexts tr[data-context]').each(function(i, c) {
+                var $c = $(c);
+                if ($c.is('.error, .warning')) showHide($c.next()); //if there is an error show it.
+                $c.click(function () {
+                	var next = $(this).next();
+                    showHide(next);
+                });
+            });
+
+            var toggleRowClass = function(el, klass) {
+            	var show = $(el).is(":checked")
+				$('tr.result .' + klass).toggle(show);
+            }
+
+			$("#passedInput").change(function () {
+				toggleRowClass(this, 'success');
+			});
+			
+			$("#failedInput").change(function () {
+				toggleRowClass(this, 'error');
+			});
+			
+			$("#todoInput").change(function () {
+				toggleRowClass(this, 'warning');
+			});
+			
+			$("#skippedInput").change(function () {
+				toggleRowClass(this, 'info');
+			});
+		});
+    </script>
+
+
+</body>

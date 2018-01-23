@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RadialInsightAdmin.UITests", "RadialInsightAdmin.UITests\RadialInsightAdmin.UITests.fsproj", "{33712504-6DFC-485C-9C66-257BC26FC3A4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PortalNavigation.UITests", "PortalNavigation.UITests\PortalNavigation.UITests.fsproj", "{0C0874D9-A9A9-4438-93C4-8499C30F4C8A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ClientAdmin.UITests", "ClientAdmin.UITests\ClientAdmin.UITests.fsproj", "{4B4CC7AD-7114-4706-A8F4-A8E94B55D57F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Synchronization.UITests", "Synchronization.UITests\Synchronization.UITests.fsproj", "{6A6D4DFF-86CA-46E1-81D7-AEF04A08A4E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33712504-6DFC-485C-9C66-257BC26FC3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33712504-6DFC-485C-9C66-257BC26FC3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33712504-6DFC-485C-9C66-257BC26FC3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33712504-6DFC-485C-9C66-257BC26FC3A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0874D9-A9A9-4438-93C4-8499C30F4C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0874D9-A9A9-4438-93C4-8499C30F4C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0874D9-A9A9-4438-93C4-8499C30F4C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0874D9-A9A9-4438-93C4-8499C30F4C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B4CC7AD-7114-4706-A8F4-A8E94B55D57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4CC7AD-7114-4706-A8F4-A8E94B55D57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4CC7AD-7114-4706-A8F4-A8E94B55D57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4CC7AD-7114-4706-A8F4-A8E94B55D57F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A6D4DFF-86CA-46E1-81D7-AEF04A08A4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6D4DFF-86CA-46E1-81D7-AEF04A08A4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6D4DFF-86CA-46E1-81D7-AEF04A08A4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6D4DFF-86CA-46E1-81D7-AEF04A08A4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.i-360.com:8080/tfs/i360
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RadialInsightAdmin.UITests\\RadialInsightAdmin.UITests.fsproj
+		SccProjectName1 = RadialInsightAdmin.UITests
+		SccLocalPath1 = RadialInsightAdmin.UITests
+		SccProjectUniqueName2 = PortalNavigation.UITests\\PortalNavigation.UITests.fsproj
+		SccProjectName2 = PortalNavigation.UITests
+		SccLocalPath2 = PortalNavigation.UITests
+		SccProjectUniqueName3 = ClientAdmin.UITests\\ClientAdmin.UITests.fsproj
+		SccProjectName3 = ClientAdmin.UITests
+		SccLocalPath3 = ClientAdmin.UITests
+		SccProjectUniqueName4 = Synchronization.UITests\\Synchronization.UITests.fsproj
+		SccProjectName4 = Synchronization.UITests
+		SccLocalPath4 = Synchronization.UITests
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,277 @@
+<head>
+    <meta charset="utf-8">
+    <title>canopy test results</title>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+    <style>
+        .masthead ul, .masthead li
+        {
+            margin-bottom: 0px;
+        }
+        
+        hr
+        {
+            margin: 0px 0px 20px 0px;
+        }
+        .table.results
+        {
+            margin-bottom: 0px;
+        }
+        
+        .table.results td
+        {
+            border-left: 0px solid #dddddd;
+        }
+
+        .black {
+            margin-left: 5px;
+            color: black;
+        }
+
+        .well.mini {
+            min-height: 0px;
+            margin-bottom: 0px;
+            padding: 2px;
+            position: relative;
+            top: -3px;
+        }
+
+        .well.mini.clear {
+            background-color: inherit;
+            border: none;
+            -webkit-box-shadow: inherit;
+            -moz-box-shadow: inherit;
+            box-shadow: inherit;
+            top: 0px;
+        }
+
+        .test, .context {
+            padding: 2px 0 6px 0;
+        }
+		
+		.result td {
+			padding-left: 15px;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="masthead">        
+            <ul class="nav nav-pills">
+                <li><a>
+                    <label class="checkbox">
+                        <input id="passedInput" checked="checked" value="" type="checkbox">
+                        <span id="passed">5</span>&nbsp;Passed
+                    </label>
+                </a></li>
+                <li><a>
+                    <label class="checkbox">
+                        <input id="failedInput" checked="checked" value="" type="checkbox">
+                        <span id="failed">0</span>&nbsp;Failed
+                    </label>
+                </a></li>
+                <li><a>
+                    <label class="checkbox">
+                        <input id="todoInput" checked="checked" value="" type="checkbox">
+                        <span id="todo">0</span>&nbsp;Todo
+                    </label>
+                </a></li>
+				<li><a>
+                    <label class="checkbox">
+                        <input id="skippedInput" checked="checked" value="" type="checkbox">
+                        <span id="skipped">0</span>&nbsp;Skipped
+                    </label>
+                </a></li>
+                <li class="pull-right" id="start"><a>
+                    <label>Start:<span class="black">Wednesday, July 19, 2017 2:22:49 PM</span>
+                    </label>
+                </a></li>
+                <li class="pull-right" id="total"><a>
+                    <label>Total:<span class="black">2m 31s</span>
+                    </label>
+                </a></li>
+                <li class="pull-right hidden" id="environment"><a>
+                    <label>Environment:<span class="black"></span>
+                    </label>
+                </a></li>
+            </ul>
+        </div>
+        <hr>
+        <table class="table table-bordered table-condensed" id="contexts">
+            <tbody>
+            <tr data-context="VolunteerData" class="success"><td><div class="context"><span class="mini well clear">Context: VolunteerData</span><span class="pull-right mini well context-time">2m 31s</span></div></td></tr><tr class="result" data-owning-context="VolunteerData" style="display: none;"><td><table class="table results"><tbody><tr class="success"><td><div class="test" data-name="Add Volunteer"><span class="mini well clear">Add Volunteer</span><span class="pull-right mini well test-time">0m 8s</span></div><pre><ol class="message"><li>#ctl15_imgMasterHdrLogo</li><li>#Menu1 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>Add Volunteer</li><li>on i360 - Volunteer Details page ...</li><li>Add Volunteer</li></ol></pre></td></tr><tr class="success"><td><div class="test" data-name="Create Volunteer Required Information "><span class="mini well clear">Create Volunteer Required Information </span><span class="pull-right mini well test-time">0m 4s</span></div><pre><ol class="message"><li>#ddlC_State2</li><li>option[text()="VA"] | option[@value="VA"] | optgroup/option[text()="VA"] | optgroup/option[@value="VA"]</li><li>#ctl00_MainContent_FormView3_ctl02_tbEmail12</li></ol></pre></td></tr><tr class="success"><td><div class="test" data-name="Create Volunteer Full Record"><span class="mini well clear">Create Volunteer Full Record</span><span class="pull-right mini well test-time">0m 24s</span></div><pre><ol class="message"><li>Enter Full Record</li><li>#ctl00_MainContent_FormView3_ctl04_tbSalutation</li><li>#ctl00_MainContent_FormView3_ctl04_tbFirstName</li><li>#ctl00_MainContent_FormView3_ctl04_tbMiddleName</li><li>#ctl00_MainContent_FormView3_ctl04_tbLastName</li><li>#ctl00_MainContent_FormView3_ctl04_tbSuffix</li><li>#ctl00_MainContent_FormView3_ctl04_ddlStatus</li><li>option[text()="Active"] | option[@value="Active"] | optgroup/option[text()="Active"] | optgroup/option[@value="Active"]</li><li>#ctl00_MainContent_FormView3_ctl04_tbC_AddrLine1</li><li>#ctl00_MainContent_FormView3_ctl04_tbC_AddrLine2</li><li>#ctl00_MainContent_FormView3_ctl04_tbC_City</li><li>#ddlC_State</li><li>option[text()="VA"] | option[@value="VA"] | optgroup/option[text()="VA"] | optgroup/option[@value="VA"]</li><li>#ctl00_MainContent_FormView3_ctl04_tbC_Zip5</li><li>#ctl00_MainContent_FormView3_ctl04_tbC_USPSZip4</li><li>#ctl00_MainContent_FormView3_ctl04_tbC_CountyName</li><li>#ctl00_MainContent_FormView3_ctl04_tbEmail2</li><li>#ctl00_MainContent_FormView3_ctl04_tbPhone1</li><li>#ctl00_MainContent_FormView3_ctl04_MyToggleSwitch1_ToggleSwitchControl</li><li>#ctl00_MainContent_FormView3_ctl04_tbPhone2</li></ol></pre></td></tr><tr class="success"><td><div class="test" data-name="Create Volunteer Additional Recodes"><span class="mini well clear">Create Volunteer Additional Recodes</span><span class="pull-right mini well test-time">1m 4s</span></div><pre><ol class="message"><li>#ctl00_MainContent_FormView3_ctl04_tbDOB</li><li>#ctl00_MainContent_FormView3_ctl04_ddlGender</li><li>option[text()="Male"] | option[@value="Male"] | optgroup/option[text()="Male"] | optgroup/option[@value="Male"]</li><li>#ctl00_MainContent_FormView3_ctl04_tbFacebookPage</li><li>#ctl00_MainContent_FormView3_ctl04_tbTwitterHandle</li><li>#ctl00_MainContent_FormView3_ctl04_tbEmployer</li><li>#ctl00_MainContent_FormView3_ctl04_tbOccupation</li><li>#ddlCoordinator</li><li>option[text()="Dube, Manish "] | option[@value="Dube, Manish "] | optgroup/option[text()="Dube, Manish "] | optgroup/option[@value="Dube, Manish "]</li><li>#ctl00_MainContent_FormView3_btnASave_CD</li><li>#ctl00_main_body &gt; div.i-360-simple-alert-bg &gt; div &gt; div:nth-child(3) &gt; div &gt; button.btn-i-360-okay.btn-default.pull-right</li><li>#ctl00_MainContent_FormView1_EmailLabel</li></ol></pre></td></tr><tr class="success"><td><div class="test" data-name="Check created volunteer"><span class="mini well clear">Check created volunteer</span><span class="pull-right mini well test-time">0m 22s</span></div><pre><ol class="message"><li>#Menu1 &gt; ul &gt; li:nth-child(3) &gt; a</li><li>#Menu1\3a submenu\3a 24 &gt; li:nth-child(1) &gt; a</li><li>on i360 - Volunteers page ...</li><li>Volunteers</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol5_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol7_I</li><li>#ctl00_MainContent_ASPxGridView1_DXFREditorcol12_I</li><li>#ctl00_MainContent_ASPxGridView1_DXCBtn0</li><li>#ctl00_MainContent_ASPxGridView1 &gt; tbody &gt; tr &gt; td &gt; div.dxgvCSD</li><li>Portal Logout failed</li></ol></pre></td></tr></tbody></table></td></tr></tbody>
+        </table>
+    </div>
+    <script type="text/javascript">
+		var beginContextResults = function (context) {
+				var ctx = $("#contexts").find('tr[data-context="' + context + '"]');
+				ctx.after('<tr class="result" data-owning-context="' + context + '"><td><table class="table results"><tbody></tbody></table></td></tr>');
+				ctx.click(function () {
+					if ($(this).next().is(":visible")) {
+						$(this).next().hide();
+					} else {
+						$(this).next().show();
+					}				
+				});
+			};
+
+		var addContext = function (context) {
+		    $("#contexts").last('tr').append('<tr data-context="' + context + '"><td><div class="context"><span class="mini well clear">Context: ' + context + '</span><span class="pull-right mini well hidden context-time">0m 0s</span></div></td></tr>');
+			beginContextResults(context);
+		};
+
+		var recalculateTotals = function () {
+			$("#passed").text($(".results .success").length);
+			$("#failed").text($(".results .error").length);
+			$("#todo").text($(".results .warning").length);
+			$("#skipped").text($(".results .info").length);
+		};
+		
+		var getContext = function (context) { return $('#contexts tr[data-context="' + context + '"]'); };
+		
+		var getTest = function (ctx, testName) { return ctx.next('tr').find('table').find('[data-name="' + testName + '"]'); };
+		
+		var getTestRow = function (ctx, testName) { return getTest(ctx, testName).closest("tr"); };
+		
+        var addToContext = function (context, testName) {
+			var ctx = getContext(context);
+			ctx.next('tr').find('table').append('<tr><td><div class="test" data-name="' + testName + '"><span class="mini well clear">' + testName + '</span><span class="pull-right mini well hidden test-time"></span></div></td></tr>');	
+		};
+				
+		var updateTestInContext = function (context, testName, passFailSkip, image) {
+			var ctx = getContext(context);
+			var testRow = getTestRow(ctx, testName);
+			
+			if (passFailSkip === "Pass") {
+				testRow.addClass('success');
+				if (ctx.hasClass("error") === false) {
+					ctx.removeClass("warning").removeClass("info").addClass("success");
+				}
+			}
+			if (passFailSkip === "Fail") {
+				testRow.addClass('error');
+				ctx.removeClass("success").removeClass("warning").removeClass("info").addClass("error");
+			}
+			if (passFailSkip === "Todo") {
+				testRow.addClass('warning');
+				if (ctx.hasClass("error") === false && ctx.hasClass("info") === false && ctx.hasClass("success") === false){
+					ctx.addClass("warning");
+				}
+			}
+			if (passFailSkip === "Skip") {
+				testRow.addClass('info');
+				if (ctx.hasClass("error") === false && ctx.hasClass("warning") === false && ctx.hasClass("success") === false){
+					ctx.addClass("info");
+				}
+			}
+
+			if(image !== "") {
+				testRow.find('td').last().append('<div><img alt="" src="data:image/jpeg;base64,' + image + '" /></div>')
+			}
+			
+			recalculateTotals();
+		};
+
+		var addUrlToTest = function (context, testName, url) {
+			var ctx = getContext(context);
+			getTest(ctx, testName).after('<div class="url"><pre>' + url + '</pre></div>');
+		};
+		
+		var addStackToTest = function (context, testName, stack) {
+			var ctx = getContext(context);
+			getTest(ctx, testName).after('<div class="stack"><pre>' + stack + '</pre></div>');
+		};
+		
+		var addTimeToTest = function (context, testName, time) {
+		    var ctx = getContext(context);
+		    getTest(ctx, testName).find('.test-time').removeClass('hidden').text(time);
+		};
+
+		var addTimeToContext = function (context, time) {
+		    var ctx = getContext(context);
+		    ctx.find('.context-time').removeClass('hidden').text(time);
+		};
+
+		var setTotalTime = function (time) {
+		    $("#total .black").text(time);
+		};
+
+		var setStartTime = function (time) {
+		    $("#start .black").text(time);
+		};
+
+		var setEnvironment = function (environment) {
+		    $("#environment").removeClass('hidden').find(".black").text(environment);
+		};
+
+		var addMessageToTest = function (context, message) {
+			var ctx = getContext(context);
+			if(ctx.next('tr').find('table').last('tr').find('.test').last().siblings('pre').length === 0) {
+				ctx.next('tr').find('table').last('tr').find('.test').last().after('<pre><ol class="message"><li>' + message + '</li></ol></pre>');
+			} else {
+				ctx.next('tr').find('table').last('tr').find('.test').last().siblings('pre').find('ol').append('<li>' + message + '</li>');
+			}
+		};
+		
+		var addMessageToTestByName = function (context, testName, message) {
+			var ctx = getContext(context);
+			var test = getTest(ctx, testName);
+			if(test.siblings('pre').length === 0) {
+				test.after('<pre><ol class="message"><li>' + message + '</li></ol></pre>');
+			} else {
+				test.siblings('pre').find('ol').append('<li>' + message + '</li>');
+			}
+		};
+		
+		var collapseContextsExcept = function (context) {
+			var ctxs = $('#contexts tr.result[data-owning-context !="' + context + '"]');
+			ctxs.each(function () {
+				$(this).hide();
+			});
+		};
+		
+		$(document).ready(function() {
+			var showHide = function(next) {
+				if (next.is(":visible")) {
+					next.hide();
+				} else {
+					next.show();
+				}
+			};
+
+			//wire up to existing contexts on the page
+            var ctx = $('#contexts tr[data-context]').each(function(i, c) {
+                var $c = $(c);
+                if ($c.is('.error, .warning')) showHide($c.next()); //if there is an error show it.
+                $c.click(function () {
+                	var next = $(this).next();
+                    showHide(next);
+                });
+            });
+
+            var toggleRowClass = function(el, klass) {
+            	var show = $(el).is(":checked")
+				$('tr.result .' + klass).toggle(show);
+            }
+
+			$("#passedInput").change(function () {
+				toggleRowClass(this, 'success');
+			});
+			
+			$("#failedInput").change(function () {
+				toggleRowClass(this, 'error');
+			});
+			
+			$("#todoInput").change(function () {
+				toggleRowClass(this, 'warning');
+			});
+			
+			$("#skippedInput").change(function () {
+				toggleRowClass(this, 'info');
+			});
+		});
+    </script>
+
+
+</body>
